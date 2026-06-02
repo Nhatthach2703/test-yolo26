@@ -1,0 +1,18 @@
+[project]
+name = "test-yolo26"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Truong Nhat Thach",email = "nhatthach2703@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "test_yolo26", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
