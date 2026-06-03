@@ -4,3 +4,9 @@ models
 outputs
 draft
 /runs/detect/
+
+# Label cache file (preprocessed dataset annotations cache)
+labels.cache
+
+# Ignore models files
+/*.pt 
