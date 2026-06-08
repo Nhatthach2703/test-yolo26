@@ -8,5 +8,11 @@ draft
 # Label cache file (preprocessed dataset annotations cache)
 labels.cache
 
-# Ignore models files
+# Models files
 /*.pt 
+
+# Dataset files and folders (excluded to keep the repository lightweight)
+test/
+train/
+valid/
+data.yaml
