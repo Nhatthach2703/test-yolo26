@@ -10,7 +10,7 @@ The **Vehicle Detection Image Dataset** is a curated dataset specifically design
 ---
 
 ## Classes
-The dataset contains **5 object classes** (`nc: 5`) defined in [data.yaml](file:///e:/Projects/AI/test-yolo26/datasets/vehicles/data.yaml):
+The dataset contains **5 object classes** (`nc: 5`) defined in [data.yaml](./data.yaml):
 1. **Bus**
 2. **Car**
 3. **Motorcycle**
@@ -47,7 +47,7 @@ The original dataset underwent key preprocessing and augmentation steps:
 ---
 
 ## Usage with YOLOv8 / YOLOv11
-To train a YOLO model using this dataset, point your model configuration to the [data.yaml](file:///e:/Projects/AI/test-yolo26/datasets/vehicles/data.yaml) file:
+To train a YOLO model using this dataset, point your model configuration to the [data.yaml](./data.yaml) file:
 
 ```python
 from ultralytics import YOLO
